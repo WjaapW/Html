@@ -1,3 +1,29 @@
-.font{
-  font-size: 20px;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
 }
+
+table {
+  margin-top: 75px;
+  font-size: 150%;
+  max-width: 75%;
+}
+table, text {
+  color: black;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+}
+thead {
+    display: table-header-group;
+}
+caption {
+  font-size: 300%;
+}
+@media (max-width: 425px) {
+table {
+  font-size: 80%;
+} 
