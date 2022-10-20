@@ -26,7 +26,9 @@
 
     <article class="Contact">
    <form>
-      <p>Naam en achternaam:</p>
+     <h1>Vragen</h1>
+     <fieldset>
+      <p> <strong>Naam en achternaam </strong> </p>
       <p><input type="text" name="name" placeholder="Naam"></p>
       <p>E-mail</p>
       <input type="email" size="20" maxlength="40" placeholder="E-mail adress" name="Mail" required="">
@@ -34,23 +36,28 @@
       <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder="Telefoonnummer" 
       name="telefoonnummer" required="">
       
-       <p>Land:</p>
-      <input type="text" pattern="[0]\d{9,9}$" size="20" maxlength="10" placeholder="Land" 
-      name="Land" required="">
+   <p> <strong>Land </strong> </p>
+      <select name="Kies uw Land">
+        <option>Nederland</option>
+        <option>Duitsland</option>
+        <option>Engeland</option>
+        <option>Anders</option>
+      </select>
      <p>
        
      </p>
-     <fieldset>
-        <legend>Kies uw gender:</legend>
+  
+        <p> <strong>Kies uw gender </strong></p>
       <p></p>
       <p> <input type="radio" size="20" maxlength="40" name="gender" value="man"> Man</p>
       <p> <input type="radio" size="20" maxlength="40" name="gender" value="vrouw"> Vrouw</p>
       <p> <input type="radio" size="20" maxlength="40" name="gender" value="zeg ik liever niet"> Zeg ik liever niet</p>
-        </fieldset>
+    
       <p>Vraag:</p>
       <textarea rows="5" cols="25" placeholder="vul hier je vraag/vragen in" name="Vraag" required="">
       </textarea>
       <p><input type="submit" value="versturen"></p>
+     </fieldset>
     </form>
     </article>
     <aside>
