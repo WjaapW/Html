@@ -1,13 +1,11 @@
 body{
   margin: 0%;
-  background-color: #8b8484;
+  background-color: #ffffff;
 }
 .content{
   display: flex;
 }
-{
-  text-align: left;
-}  
+
 header{
   width: 100vw;
   text-align: right;
@@ -26,15 +24,18 @@ header{
 
 
 article{
-
   background-color: #ffffff;
   height: auto;
-  width: 100vw;
+  width: 100ch;
   padding: 10px;
-  text-align: center;
-  
+  text-align: left;
+  font-size: 23px;
 }
 
+.pw{
+  height: 150px;
+  width: auto;
+}
 footer{
   background-color: #8b8484;
   bottom: 10px;

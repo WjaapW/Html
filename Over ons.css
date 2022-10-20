@@ -1,6 +1,6 @@
 body{
   margin: 0%;
-  background-color: #8b8484;
+  background-color: #ffffff;
 }
 .content{
   display: flex;
@@ -53,13 +53,13 @@ img{
 
 
 .topnav{
-   background-color: #333;
+   background-color: #ffffff;
   overflow: hidden;
   height: 50px;
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 .topnav a {
@@ -81,7 +81,7 @@ img{
   color: white;
 }
 .bottomnav{
-  background-color:#8b8484;
+  background-color:#ffffff;
 }
 .worst{
   font-weight: bolder;
@@ -104,4 +104,7 @@ tr:nth-child(even) {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+#belang{
+  font-size: 40px;
 }
