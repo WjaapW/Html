@@ -29,10 +29,23 @@ article{
   width: 100ch;
   padding: 10px;
   text-align: left;
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .pw{
+  height: 150px;
+  width: auto;
+}
+
+.slim{
+  height: 150px;
+  width: auto;
+}
+.without{
+  height: 150px;
+  width: auto;
+}
+.sika{
   height: 150px;
   width: auto;
 }

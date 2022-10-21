@@ -102,4 +102,6 @@ table, th, td {
   border-collapse: collapse;
 }
 
-
+footer{
+  position: fixed;
+}
